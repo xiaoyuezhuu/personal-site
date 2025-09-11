@@ -1,0 +1,215 @@
+{
+  "project": "Personal Website Development",
+  "description": "Build a simple, elegant personal website for a data scientist + founder, inspired by Andrej Karpathy's design",
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Initialize Next.js Project Foundation",
+      "description": "Set up Next.js 14 project with TypeScript, Tailwind CSS, ESLint, and proper project structure",
+      "deliverables": [
+        "Next.js project initialized with App Router",
+        "TypeScript configuration",
+        "Tailwind CSS setup and configuration",
+        "ESLint and Prettier configuration",
+        "Basic folder structure (components, types, etc.)"
+      ],
+      "acceptance_criteria": [
+        "Project builds without errors",
+        "Tailwind CSS classes work properly",
+        "TypeScript compilation successful",
+        "Development server runs on localhost:3000"
+      ],
+      "estimated_time": "30 minutes"
+    },
+    {
+      "id": 2,
+      "title": "Create Layout Components and Typography System",
+      "description": "Build reusable layout components and establish typography system with Inter font",
+      "deliverables": [
+        "Main layout component with proper HTML structure",
+        "Typography components (headings, paragraphs, links)",
+        "Inter font integration",
+        "Responsive container component",
+        "Color palette implementation in Tailwind config"
+      ],
+      "acceptance_criteria": [
+        "Layout is responsive across all screen sizes",
+        "Typography hierarchy is clear and consistent",
+        "Inter font loads properly",
+        "Color system matches design document"
+      ],
+      "estimated_time": "45 minutes"
+    },
+    {
+      "id": 3,
+      "title": "Build Header Section with Photo and Social Links",
+      "description": "Create the header section with professional photo, name, title, and social media links",
+      "deliverables": [
+        "Header component with profile photo placeholder",
+        "Name and title display",
+        "Social links component with icons",
+        "Responsive header layout",
+        "Hover effects for social links"
+      ],
+      "acceptance_criteria": [
+        "Header looks professional and clean",
+        "Social links are properly aligned and functional",
+        "Photo placeholder is properly sized and positioned",
+        "Header is responsive on mobile devices"
+      ],
+      "estimated_time": "40 minutes"
+    },
+    {
+      "id": 4,
+      "title": "Implement About Section",
+      "description": "Create a concise about section with professional background and current focus",
+      "deliverables": [
+        "About section component",
+        "Proper text formatting and spacing",
+        "Responsive text layout",
+        "Content structure for background and interests"
+      ],
+      "acceptance_criteria": [
+        "Text is readable and well-formatted",
+        "Section has proper spacing from header",
+        "Content flows naturally",
+        "Mobile layout is optimized"
+      ],
+      "estimated_time": "25 minutes"
+    },
+    {
+      "id": 5,
+      "title": "Create Timeline Section (Karpathy-style)",
+      "description": "Build the chronological timeline with year markers on left and content on right",
+      "deliverables": [
+        "Timeline component with year/content structure",
+        "Timeline item component for individual entries",
+        "Proper spacing and alignment",
+        "Responsive timeline layout",
+        "Sample timeline data structure"
+      ],
+      "acceptance_criteria": [
+        "Timeline matches Karpathy's visual style",
+        "Year markers are properly aligned",
+        "Content sections are clearly separated",
+        "Timeline is readable on mobile devices",
+        "Easy to add new timeline entries"
+      ],
+      "estimated_time": "60 minutes"
+    },
+    {
+      "id": 6,
+      "title": "Build Achievements Section with Project Cards",
+      "description": "Create project cards layout for showcasing achievements, projects, and publications",
+      "deliverables": [
+        "Project card component",
+        "Achievements section layout",
+        "Card grid system",
+        "Hover effects and interactions",
+        "Sample project data structure"
+      ],
+      "acceptance_criteria": [
+        "Cards have consistent design and spacing",
+        "Grid layout is responsive",
+        "Hover effects are smooth and subtle",
+        "Cards display project information clearly",
+        "Easy to add new project cards"
+      ],
+      "estimated_time": "50 minutes"
+    },
+    {
+      "id": 7,
+      "title": "Add Icons and Interactive Elements",
+      "description": "Integrate Lucide React icons and implement smooth interactions throughout the site",
+      "deliverables": [
+        "Lucide React icons integration",
+        "Social media icons in header",
+        "Project link icons",
+        "Smooth hover transitions",
+        "Subtle animations for page elements"
+      ],
+      "acceptance_criteria": [
+        "All icons are consistent in style and size",
+        "Hover effects are smooth and professional",
+        "Icons enhance usability without being distracting",
+        "Animations are subtle and purposeful"
+      ],
+      "estimated_time": "35 minutes"
+    },
+    {
+      "id": 8,
+      "title": "Implement Responsive Design and Mobile Optimization",
+      "description": "Ensure the website works perfectly on all device sizes with proper responsive behavior",
+      "deliverables": [
+        "Mobile-first responsive design",
+        "Tablet layout optimization",
+        "Desktop layout refinement",
+        "Touch-friendly interactive elements",
+        "Cross-browser compatibility testing"
+      ],
+      "acceptance_criteria": [
+        "Site works flawlessly on mobile devices",
+        "Timeline and cards adapt properly to screen size",
+        "Text remains readable at all breakpoints",
+        "Navigation and interactions work on touch devices"
+      ],
+      "estimated_time": "45 minutes"
+    },
+    {
+      "id": 9,
+      "title": "Performance Optimization and SEO Setup",
+      "description": "Optimize site performance, add SEO meta tags, and ensure fast loading times",
+      "deliverables": [
+        "Image optimization setup",
+        "Meta tags and Open Graph implementation",
+        "Sitemap generation",
+        "Performance optimization (lazy loading, etc.)",
+        "Lighthouse score optimization"
+      ],
+      "acceptance_criteria": [
+        "Lighthouse score 95+ across all metrics",
+        "First Contentful Paint < 1.5s",
+        "Proper SEO meta tags implemented",
+        "Images are optimized and responsive"
+      ],
+      "estimated_time": "40 minutes"
+    },
+    {
+      "id": 10,
+      "title": "Vercel Deployment Configuration and Final Testing",
+      "description": "Configure the project for Vercel deployment and perform final testing across all features",
+      "deliverables": [
+        "Vercel deployment configuration",
+        "Custom domain setup preparation",
+        "Environment variables configuration",
+        "Final cross-browser testing",
+        "Performance validation in production"
+      ],
+      "acceptance_criteria": [
+        "Site deploys successfully to Vercel",
+        "All features work in production environment",
+        "Custom domain can be easily configured",
+        "No console errors or warnings",
+        "Site meets all performance and accessibility goals"
+      ],
+      "estimated_time": "35 minutes"
+    }
+  ],
+  "total_estimated_time": "6 hours 25 minutes",
+  "dependencies": {
+    "task_2_depends_on": [1],
+    "task_3_depends_on": [1, 2],
+    "task_4_depends_on": [1, 2],
+    "task_5_depends_on": [1, 2],
+    "task_6_depends_on": [1, 2],
+    "task_7_depends_on": [3, 5, 6],
+    "task_8_depends_on": [3, 4, 5, 6, 7],
+    "task_9_depends_on": [8],
+    "task_10_depends_on": [9]
+  },
+  "notes": {
+    "parallel_execution": "Tasks 3, 4, 5, and 6 can be worked on in parallel after tasks 1 and 2 are complete",
+    "content_preparation": "Prepare your professional photo, bio content, timeline entries, and project information before starting task 3",
+    "customization": "Each task includes placeholder content that should be replaced with your actual information"
+  }
+}

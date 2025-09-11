@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: theme('colors.primary');
+    background-color: theme('colors.background');
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-content mx-auto px-6 sm:px-8;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+  
+  .link-hover {
+    @apply transition-colors duration-200 hover:text-accent;
+  }
+}
