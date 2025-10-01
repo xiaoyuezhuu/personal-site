@@ -4,14 +4,16 @@ import { cn } from '@/lib/utils'
 interface ContainerProps {
   children: ReactNode
   className?: string
-  size?: 'default' | 'narrow' | 'wide'
+  size?: 'default' | 'narrow' | 'wide' | 'centered' | 'medium'
 }
 
 export function Container({ children, className, size = 'default' }: ContainerProps) {
   const sizeClasses = {
     default: 'max-w-content',
     narrow: 'max-w-2xl',
-    wide: 'max-w-4xl'
+    wide: 'max-w-4xl',
+    centered: 'max-w-content-centered',
+    medium: 'max-w-content-medium'
   }
 
   return (
@@ -33,10 +35,10 @@ interface SectionProps {
 
 export function Section({ children, className, id }: SectionProps) {
   return (
-    <section 
+    <section
       id={id}
       className={cn(
-        'py-12 sm:py-16 lg:py-20',
+        'py-6 sm:py-8 lg:py-10',
         className
       )}
     >

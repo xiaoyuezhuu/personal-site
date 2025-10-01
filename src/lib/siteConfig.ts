@@ -7,18 +7,18 @@ export type SocialLinks = {
 }
 
 export const siteConfig = {
-  name: 'Your Name',
+  name: 'Xiaoyue Zhu, PhD',
   title: 'Data Scientist & Founder',
-  avatarSrc: '/avatar.svg',
+  avatarSrc: '/2018.jpg',
   social: {
-    email: 'mailto:you@example.com',
-    github: 'https://github.com/yourhandle',
-    linkedin: 'https://www.linkedin.com/in/yourhandle',
-    twitter: 'https://twitter.com/yourhandle'
+    email: 'mailto:xz1634@pm.me',
+    github: 'https://github.com/xiaoyuezhuu',
+    linkedin: 'https://www.linkedin.com/in/xiaoyue-zhu',
+    twitter: 'https://twitter.com/xiaoyuezhuu'
   } as SocialLinks,
   about: {
     summary:
-      "I'm a data scientist and founder building AI products. I work across ML modeling, data platforms, and product strategy.",
+      "I have the mind of a scientist and the hands of a builder. I thrive on self-taught challenges and ambiguity, working at the intersection of science, data and AI to help people learn, decide and thrive.",
   },
 } as const
 

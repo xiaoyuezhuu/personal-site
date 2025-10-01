@@ -9,7 +9,7 @@ interface TypographyProps {
 export function H1({ children, className }: TypographyProps) {
   return (
     <h1 className={cn(
-      "text-4xl sm:text-5xl font-bold tracking-tight text-primary mb-4",
+      "text-4xl sm:text-5xl font-bold tracking-tight text-primary mb-4 font-title",
       className
     )}>
       {children}
@@ -20,7 +20,7 @@ export function H1({ children, className }: TypographyProps) {
 export function H2({ children, className }: TypographyProps) {
   return (
     <h2 className={cn(
-      "text-2xl sm:text-3xl font-semibold text-primary mb-3",
+      "text-2xl sm:text-3xl font-semibold text-primary mb-3 font-title",
       className
     )}>
       {children}
@@ -31,7 +31,7 @@ export function H2({ children, className }: TypographyProps) {
 export function H3({ children, className }: TypographyProps) {
   return (
     <h3 className={cn(
-      "text-xl sm:text-2xl font-medium text-primary mb-2",
+      "text-xl sm:text-2xl font-medium text-primary mb-2 font-title",
       className
     )}>
       {children}
@@ -42,7 +42,7 @@ export function H3({ children, className }: TypographyProps) {
 export function Paragraph({ children, className }: TypographyProps) {
   return (
     <p className={cn(
-      "text-base text-primary leading-relaxed mb-4",
+      "text-base text-primary leading-relaxed mb-4 font-text",
       className
     )}>
       {children}
@@ -53,7 +53,7 @@ export function Paragraph({ children, className }: TypographyProps) {
 export function SecondaryText({ children, className }: TypographyProps) {
   return (
     <p className={cn(
-      "text-sm text-secondary leading-relaxed",
+      "text-sm text-secondary leading-relaxed font-text",
       className
     )}>
       {children}
@@ -73,7 +73,7 @@ export function Link({ children, href, external = false, className }: LinkProps)
       target={external ? '_blank' : undefined}
       rel={external ? 'noopener noreferrer' : undefined}
       className={cn(
-        "text-accent underline decoration-1 underline-offset-2 link-hover",
+        "text-primary underline decoration-1 underline-offset-2 hover:opacity-80",
         className
       )}
     >

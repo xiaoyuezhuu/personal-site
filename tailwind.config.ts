@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import typography from '@tailwindcss/typography'
 
 const config: Config = {
   content: [
@@ -16,13 +17,19 @@ const config: Config = {
         'background-alt': '#fafafa',
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        // Text font (body)
+        sans: ['var(--font-text)', 'Inter', 'system-ui', 'sans-serif'],
+        text: ['var(--font-text)', 'Inter', 'system-ui', 'sans-serif'],
+        // Title/display font (headings)
+        title: ['var(--font-title)', 'Space Grotesk', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       maxWidth: {
-        'content': '800px',
+        'content': '1200px',
+        'content-medium': '960px',
+        'content-centered': '800px',
       },
     },
   },
-  plugins: [],
+  plugins: [typography],
 }
 export default config
