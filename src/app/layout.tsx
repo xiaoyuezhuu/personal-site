@@ -8,8 +8,8 @@ const title = Space_Grotesk({ subsets: ['latin'], variable: '--font-title', disp
 
 export const metadata: Metadata = {
   title: 'Xiaoyue Zhu, PhD - Data Scientist & Founder',
-  description: 'Xiaoyue Zhu is a data scientist, AI researcher, and founder. Explore my work in machine learning, data science, and technology innovation.',
-  keywords: ['Xiaoyue Zhu', 'data science', 'machine learning', 'founder', 'AI', 'artificial intelligence', 'PhD', 'researcher'],
+  description: 'Xiaoyue Zhu is a neuroscientist, data scientist, and founder. Explore my work in neuroscience, AI and data science, and technology innovation.',
+  keywords: ['Xiaoyue Zhu', 'data science', 'machine learning', 'founder', 'AI-native app', 'AI', 'artificial intelligence', 'PhD', 'researcher', 'neuroscientist'],
   authors: [{ name: 'Xiaoyue Zhu' }],
   creator: 'Xiaoyue Zhu',
   publisher: 'Xiaoyue Zhu',
@@ -22,13 +22,13 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://xiaoyuezhu.xyz',
     title: 'Xiaoyue Zhu, PhD - Data Scientist & Founder',
-    description: 'Xiaoyue Zhu is a data scientist, AI researcher, and founder. Explore my work in machine learning, data science, and technology innovation.',
+    description: 'Xiaoyue Zhu is a neuroscientist, data scientist, and founder. Explore my work in neuroscience, AI and data science, and technology innovation.',
     siteName: 'Xiaoyue Zhu',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Xiaoyue Zhu, PhD - Data Scientist & Founder',
-    description: 'Xiaoyue Zhu is a data scientist, AI researcher, and founder. Explore my work in machine learning, data science, and technology innovation.',
+    description: 'Xiaoyue Zhu is a neuroscientist, data scientist, and founder. Explore my work in neuroscience, AI and data science, and technology innovation.',
   },
   robots: {
     index: true,
