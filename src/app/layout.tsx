@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code', // Will add this from Search Console
+    google: 'VxtlkCNRKUAz5mHPKaCfzpk4OXAT1n78f1LlQj9bNZE',
   },
 }
 
