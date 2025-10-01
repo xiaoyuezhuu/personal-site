@@ -7,7 +7,7 @@ export function parseMarkdownLinks(text: string) {
 
     return paragraphs.map((paragraph, paragraphIndex) => {
         const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g
-        const parts = []
+        const parts: (string | JSX.Element)[] = []
         let lastIndex = 0
         let match
 

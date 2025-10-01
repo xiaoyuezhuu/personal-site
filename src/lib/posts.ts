@@ -20,14 +20,14 @@ export const posts: Post[] = [
     contentPath:
       path.join(process.cwd(), 'src/content/posts/how-i-vibe-coded-an-end-to-end-consumer-app-with-no-swe-training.md'),
   },
-  {
-    slug: 'ai-cognito-manifesto',
-    title: 'AI Cognito Manifesto',
-    date: '2025-10-15',
-    summary: 'A principles-first view on how humans and AI should co-evolve cognition.',
-    contentPath:
-      path.join(process.cwd(), 'src/content/posts/ai-cognito-manifesto.md'),
-  },
+  // {
+  //   slug: 'ai-cognito-manifesto',
+  //   title: 'AI Cognito Manifesto',
+  //   date: '2025-10-15',
+  //   summary: 'A principles-first view on how humans and AI should co-evolve cognition.',
+  //   contentPath:
+  //     path.join(process.cwd(), 'src/content/posts/ai-cognito-manifesto.md'),
+  // },
 ]
 
 export function getPostBySlug(slug: string): Post | undefined {

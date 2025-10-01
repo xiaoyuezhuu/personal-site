@@ -54,7 +54,7 @@ export function TimelineSection() {
                   <div className="space-y-1">
                     {entry.links.map((link, linkIndex) => (
                       <div key={linkIndex}>
-                        <Link href={link.url} external className="text-sm font-medium">
+                        <Link href={link.url} external className="text-base font-medium">
                           {link.text} →
                         </Link>
                       </div>

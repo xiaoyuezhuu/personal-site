@@ -6,7 +6,7 @@ import { SocialLinks } from '@/components/SocialLinks'
 export function HeaderSection() {
   const { name, title, avatarSrc } = siteConfig
   return (
-    <section id="home" className="py-6 sm:py-8 lg:py-10 pt-16">
+    <section id="home" className="pt-8 pb-2">
       <Container size="centered">
         <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
           <div className="shrink-0">

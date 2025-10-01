@@ -4,7 +4,7 @@ import { siteConfig } from '@/lib/siteConfig'
 
 export function AboutSection() {
   return (
-    <section id="about" className="pt-2 sm:pt-3 lg:pt-4 pb-6 sm:pb-8 lg:pb-5">
+    <section id="about" className="pt-1 pb-2">
       <Container size="centered">
         <div className="relative pl-4 sm:pl-5">
           <div className="absolute left-0 top-2 bottom-2 w-0.5 bg-gradient-to-b from-black/10 via-black/10 to-transparent" />
