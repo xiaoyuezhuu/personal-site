@@ -14,7 +14,7 @@ export const timelineEntries: TimelineEntry[] = [
     period: '2025',
     title: 'Started Amooze.ai',
     description:
-      "Living in NYC, frustrated by how absurdly hard it is to book reservations that balance preferences, exploration and availability, I built [Amooze.ai](https://amooze.ai), an AI concierge that handles restaurant discovery, recommendation and cross-platform reservation with one prompt. It turns 'cozy French bistro in SoHo for 4 tonight' into instantly bookable options across Resy and OpenTable.\n\nOver five months, fully leveraging AI and vibe coding, I designed and shipped a full AI-native consumer product end-to-end, integrating 4000+ NYC restaurants across multiple platforms. I learned product design, database architecture, backend development, API integration, and engineered a full text-to-recommendation LLM search pipeline. The product is currently in beta with early users reporting 'habit-forming' experiences.",
+      "I built [Amooze.ai](https://amooze.ai), an AI concierge that handles restaurant discovery, recommendation and cross-platform reservation with one prompt. It turns 'cozy French bistro in SoHo for 4 tonight' into instantly bookable options across Resy and OpenTable.\n\nOver five months, fully leveraging AI and vibe coding, I designed and shipped a consumer product end-to-end. I learned product design, database architecture, backend development, API integration, and engineered a full text-to-recommendation LLM search pipeline. The product is currently in beta with early users reporting 'habit-forming' experiences.",
     links: [
       {
         url: 'https://vimeo.com/1115923085/6b5d4f3179?share=copy',

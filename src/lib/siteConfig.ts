@@ -18,7 +18,7 @@ export const siteConfig = {
   } as SocialLinks,
   about: {
     summary:
-      "I have the mind of a scientist and the hands of a builder. I thrive on self-taught challenges and ambiguity, working at the intersection of science, data and AI to help people learn, decide and thrive.",
+      "I have the mind of a scientist and the hands of a builder. I thrive on self-directed challenges and ambiguity, working at the intersection of science, data and AI to help people learn, decide and thrive.",
   },
 } as const
 
